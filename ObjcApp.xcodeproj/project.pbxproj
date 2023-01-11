@@ -15,6 +15,8 @@
 		FDAA14112944CE4800201192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAA14102944CE4800201192 /* Assets.xcassets */; };
 		FDAA14142944CE4800201192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAA14122944CE4800201192 /* LaunchScreen.storyboard */; };
 		FDAA14172944CE4800201192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAA14162944CE4800201192 /* main.m */; };
+		FDD38FC9296EC55C00FCA72D /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD38FC8296EC55C00FCA72D /* UIColor+HexString.m */; };
+		FDD38FCE296EC6DD00FCA72D /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD38FCD296EC6DD00FCA72D /* UIColor+CustomColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		FDAA14132944CE4800201192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDAA14152944CE4800201192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDAA14162944CE4800201192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD38FC7296EC55200FCA72D /* UIColor+HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		FDD38FC8296EC55C00FCA72D /* UIColor+HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		FDD38FCA296EC69E00FCA72D /* UIColor+CustomColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		FDD38FCD296EC6DD00FCA72D /* UIColor+CustomColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 			children = (
 				FD8A0583296D6A35005734D9 /* UI */,
 				FD8A058D296D75B3005734D9 /* Constants */,
+				FDD38FC6296EC52E00FCA72D /* Extensions */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -129,6 +136,33 @@
 				FDAA14162944CE4800201192 /* main.m */,
 			);
 			path = ObjcApp;
+			sourceTree = "<group>";
+		};
+		FDD38FC6296EC52E00FCA72D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDD38FCC296EC6AE00FCA72D /* UIColor+CustomColors */,
+				FDD38FCB296EC6A500FCA72D /* UIColor+HexString */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FDD38FCB296EC6A500FCA72D /* UIColor+HexString */ = {
+			isa = PBXGroup;
+			children = (
+				FDD38FC7296EC55200FCA72D /* UIColor+HexString.h */,
+				FDD38FC8296EC55C00FCA72D /* UIColor+HexString.m */,
+			);
+			path = "UIColor+HexString";
+			sourceTree = "<group>";
+		};
+		FDD38FCC296EC6AE00FCA72D /* UIColor+CustomColors */ = {
+			isa = PBXGroup;
+			children = (
+				FDD38FCA296EC69E00FCA72D /* UIColor+CustomColors.h */,
+				FDD38FCD296EC6DD00FCA72D /* UIColor+CustomColors.m */,
+			);
+			path = "UIColor+CustomColors";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,11 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD38FC9296EC55C00FCA72D /* UIColor+HexString.m in Sources */,
 				FD8A0590296D7D61005734D9 /* Assets.m in Sources */,
 				FD8A0588296D6A8D005734D9 /* Scene.m in Sources */,
 				FDAA140C2944CE4800201192 /* ViewController.m in Sources */,
 				FD8A058C296D7344005734D9 /* MainScene.m in Sources */,
 				FDAA14062944CE4800201192 /* AppDelegate.m in Sources */,
+				FDD38FCE296EC6DD00FCA72D /* UIColor+CustomColors.m in Sources */,
 				FDAA14172944CE4800201192 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

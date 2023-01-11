@@ -7,6 +7,7 @@
 
 #import "MainScene.h"
 #import "Assets.h"
+#import "UIColor+CustomColors.h"
 
 @interface MainScene ()
 
@@ -16,9 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    self.view.backgroundColor = UIColor.yellowColor;
+   
     [self setNavigationBar];
 }
 
@@ -35,7 +34,7 @@
 }
 
 - (void)setupView {
-    
+    self.view.backgroundColor = UIColor.appBackgroundDarkBlue;
 }
 
 @end
