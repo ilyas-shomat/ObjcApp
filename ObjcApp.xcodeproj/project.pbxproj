@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD8A0588296D6A8D005734D9 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8A0587296D6A8D005734D9 /* Scene.m */; };
+		FD8A058C296D7344005734D9 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8A058B296D7344005734D9 /* MainScene.m */; };
+		FD8A0590296D7D61005734D9 /* Assets.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8A058F296D7D61005734D9 /* Assets.m */; };
 		FDAA14062944CE4800201192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAA14052944CE4800201192 /* AppDelegate.m */; };
-		FDAA14092944CE4800201192 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAA14082944CE4800201192 /* SceneDelegate.m */; };
 		FDAA140C2944CE4800201192 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAA140B2944CE4800201192 /* ViewController.m */; };
-		FDAA140F2944CE4800201192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAA140D2944CE4800201192 /* Main.storyboard */; };
 		FDAA14112944CE4800201192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAA14102944CE4800201192 /* Assets.xcassets */; };
 		FDAA14142944CE4800201192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAA14122944CE4800201192 /* LaunchScreen.storyboard */; };
 		FDAA14172944CE4800201192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAA14162944CE4800201192 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD8A0586296D6A8D005734D9 /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		FD8A0587296D6A8D005734D9 /* Scene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		FD8A058A296D7344005734D9 /* MainScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		FD8A058B296D7344005734D9 /* MainScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		FD8A058E296D76B3005734D9 /* Assets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assets.h; sourceTree = "<group>"; };
+		FD8A058F296D7D61005734D9 /* Assets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assets.m; sourceTree = "<group>"; };
 		FDAA14012944CE4800201192 /* ObjcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAA14042944CE4800201192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDAA14052944CE4800201192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDAA14072944CE4800201192 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		FDAA14082944CE4800201192 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		FDAA140A2944CE4800201192 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FDAA140B2944CE4800201192 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FDAA140E2944CE4800201192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDAA14102944CE4800201192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDAA14132944CE4800201192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDAA14152944CE4800201192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +46,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD8A0580296D67D0005734D9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FD8A0589296D732B005734D9 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FD8A0581296D6828005734D9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FDAA14042944CE4800201192 /* AppDelegate.h */,
+				FDAA14052944CE4800201192 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FD8A0582296D6A2B005734D9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FD8A0583296D6A35005734D9 /* UI */,
+				FD8A058D296D75B3005734D9 /* Constants */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FD8A0583296D6A35005734D9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FD8A0586296D6A8D005734D9 /* Scene.h */,
+				FD8A0587296D6A8D005734D9 /* Scene.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FD8A0589296D732B005734D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FD8A058A296D7344005734D9 /* MainScene.h */,
+				FD8A058B296D7344005734D9 /* MainScene.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FD8A058D296D75B3005734D9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FD8A058E296D76B3005734D9 /* Assets.h */,
+				FD8A058F296D7D61005734D9 /* Assets.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		FDAA13F82944CE4800201192 = {
 			isa = PBXGroup;
 			children = (
@@ -61,13 +118,11 @@
 		FDAA14032944CE4800201192 /* ObjcApp */ = {
 			isa = PBXGroup;
 			children = (
-				FDAA14042944CE4800201192 /* AppDelegate.h */,
-				FDAA14052944CE4800201192 /* AppDelegate.m */,
-				FDAA14072944CE4800201192 /* SceneDelegate.h */,
-				FDAA14082944CE4800201192 /* SceneDelegate.m */,
+				FD8A0581296D6828005734D9 /* Application */,
+				FD8A0582296D6A2B005734D9 /* Common */,
+				FD8A0580296D67D0005734D9 /* Scenes */,
 				FDAA140A2944CE4800201192 /* ViewController.h */,
 				FDAA140B2944CE4800201192 /* ViewController.m */,
-				FDAA140D2944CE4800201192 /* Main.storyboard */,
 				FDAA14102944CE4800201192 /* Assets.xcassets */,
 				FDAA14122944CE4800201192 /* LaunchScreen.storyboard */,
 				FDAA14152944CE4800201192 /* Info.plist */,
@@ -135,7 +190,6 @@
 			files = (
 				FDAA14142944CE4800201192 /* LaunchScreen.storyboard in Resources */,
 				FDAA14112944CE4800201192 /* Assets.xcassets in Resources */,
-				FDAA140F2944CE4800201192 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8A0590296D7D61005734D9 /* Assets.m in Sources */,
+				FD8A0588296D6A8D005734D9 /* Scene.m in Sources */,
 				FDAA140C2944CE4800201192 /* ViewController.m in Sources */,
+				FD8A058C296D7344005734D9 /* MainScene.m in Sources */,
 				FDAA14062944CE4800201192 /* AppDelegate.m in Sources */,
 				FDAA14172944CE4800201192 /* main.m in Sources */,
-				FDAA14092944CE4800201192 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FDAA140D2944CE4800201192 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDAA140E2944CE4800201192 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDAA14122944CE4800201192 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +345,6 @@
 				INFOPLIST_FILE = ObjcApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +371,6 @@
 				INFOPLIST_FILE = ObjcApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

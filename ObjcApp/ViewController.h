@@ -6,8 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Scene.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : Scene
 
 
 @end
